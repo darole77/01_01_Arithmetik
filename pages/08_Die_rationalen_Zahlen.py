@@ -17,4 +17,13 @@ st.markdown("Hier zur Veranschaulichung ein paar Beispiele für rationale Zahlen
 image_url = "https://imageshack.com/i/pmuSW5mej"
 st.image(image_url)
 
-st.markdown("[Learningsnack zu den rationalen Zahlen](https://www.learningsnacks.de/share/251227/3f43c74795debbed212cc2e17f94599ce171aee0)")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Die rationalen Zahlen](https://www.learningsnacks.de/share/251227/3f43c74795debbed212cc2e17f94599ce171aee0)")
