@@ -13,4 +13,13 @@ image_url = "https://imageshack.com/i/pnxbw6Puj"
 st.image(image_url)
 st.markdown("Vor negative Zahlen schreibt man ein **Minuszeichen**, wobei zu beachten ist, dass es sich hierbei nicht um ein „Rechenzeichen-Minus“ handelt, sondern um ein **„Vorzeichen-Minus“**. ")
 
-st.markdown("[Learningsnack zu den ganzen Zahlen](https://www.learningsnacks.de/share/249464/ddf54e882cc39fee7a09ffd95a814a5ab6a2d9d7)")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Die ganzen Zahlen](https://www.learningsnacks.de/share/249464/ddf54e882cc39fee7a09ffd95a814a5ab6a2d9d7)")
