@@ -18,4 +18,13 @@ st.markdown("Wenn die Objekte in günstigen Mustern angeordnet sind (z.B. Reihen
 st.markdown("Wenn man im vierten Bild (rechts unten) die Anzahl beispielsweise über $$\small{3\cdot5-1=14}$$ ermittelt hat, so hat man bereits eine Kombination aus verschiedenen Rechenoperationen angewendet.")
 st.markdown("Die **Addition (+)** ist also eine naheliegende Weiterentwicklung des Zählens und die **Multiplikation (∙)** ist eine Weiterentwicklung der Addition. Gemeinsam mit den zugehörigen Umkehroperationen **Subtraktion (–)** und **Division (:)** ergeben sich die **vier Grundrechenarten** der Arithmetik.")
 
-st.markdown("[Learningsnack Vom Zählen zum Rechnen](https://www.learningsnacks.de/share/249439/b199312900464215526ef7a8bd0b3856c5369f6e )")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Vom Zählen zum Rechnen](https://www.learningsnacks.de/share/249439/b199312900464215526ef7a8bd0b3856c5369f6e)")
