@@ -19,4 +19,16 @@ st.markdown("Die natürlichen Zahlen lassen sich am so genannten 'Zahlenstrahl' 
 image_url = "https://imageshack.com/i/pomGWAZ5p"
 st.image(image_url)
 
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Die natürlichen Zahlen](https://www.learningsnacks.de/share/249432/c7b260eb380b35c7fa7b6072f4e2767f1a45bab3)")
+
+
 st.markdown("[Learningsnack zu den natürlichen Zahlen](https://www.learningsnacks.de/share/249432/c7b260eb380b35c7fa7b6072f4e2767f1a45bab3)")
