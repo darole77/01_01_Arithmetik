@@ -24,4 +24,13 @@ st.write("")
 image_url = "https://imageshack.com/i/poOzIfsHj"
 st.image(image_url)
 
-st.markdown("[Learningsnack zu den reellen Zahlen](https://www.learningsnacks.de/share/253361/cd70bf896e05b1bd1b85de456cb619e23f0ca118")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Die reellen Zahlen](https://www.learningsnacks.de/share/253361/cd70bf896e05b1bd1b85de456cb619e23f0ca118)")
