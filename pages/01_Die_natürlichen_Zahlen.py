@@ -31,4 +31,3 @@ with col2:
     st.markdown("[Die natürlichen Zahlen](https://www.learningsnacks.de/share/249432/c7b260eb380b35c7fa7b6072f4e2767f1a45bab3)")
 
 
-st.markdown("[Learningsnack zu den natürlichen Zahlen](https://www.learningsnacks.de/share/249432/c7b260eb380b35c7fa7b6072f4e2767f1a45bab3)")
