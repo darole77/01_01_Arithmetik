@@ -32,4 +32,13 @@ st.markdown("Für die Reihenfolge der Rechenoperationen gilt:")
 st.markdown("1. Kommen in einer Rechnung ausschließlich Rechenarten derselben Stufe vor, so wird **$$\mathrm{\color{red}{\: von \: links \: nach \: rechts \:}}$$** gerechnet.")
 st.markdown("2. Kommen in einer Rechnung Rechenarten unterschiedlicher Stufe und eventuell auch Klammern vor, so gilt: **$$\mathrm{\color{red}{\: Klammer \: vor \: Punkt \: vor \: Strich! \:}}$$**")
 
-st.markdown("[Learningsnack zu den Grundrechenarten](https://www.learningsnacks.de/share/249445/fb6f9b7e0833dce4405c2deaaabfa790c362aa56)")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Die vier Grundrechenarten](https://www.learningsnacks.de/share/249445/fb6f9b7e0833dce4405c2deaaabfa790c362aa56)")
