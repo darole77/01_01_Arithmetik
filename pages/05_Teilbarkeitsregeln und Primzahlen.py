@@ -8,7 +8,7 @@ st.header("Teilbarkeitsregeln und Primzahlen")
 image_url = "https://imageshack.com/i/pmpxMV2Qj"
 st.image(image_url)
 
-st.markdown("Eine **Primzahl** ist eine natürliche Zahl, die **genau zwei natürliche Teiler** hat.)
+st.markdown("Eine **Primzahl** ist eine natürliche Zahl, die **genau zwei natürliche Teiler** hat.")
 image_url = "https://i.postimg.cc/CLcDgxTG/01-01-Primzahlen.jpg"
 st.image(image_url)
 st.markdown("")            
