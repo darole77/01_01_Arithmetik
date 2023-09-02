@@ -51,4 +51,14 @@ st.markdown(md_df, unsafe_allow_html=True)
 st.markdown("")
 st.markdown("Da eine Multiplikation mit 0 als Ergebnis immer 0 liefert, kann die Zahl 0 selbst niemals Teiler einer anderen Zahl sein. Durch 0 zu teilen, ergibt also mathematisch keinen Sinn und wird daher in der Mathematik nicht erlaubt (nicht definiert).")
 
-st.markdown("[Learningsnack zur Teilbarkeit](https://www.learningsnacks.de/share/249449/419f2eb476c8f619d4f1e3f64a6c8d76d0f19805)")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Teilbarkeit](https://www.learningsnacks.de/share/249449/419f2eb476c8f619d4f1e3f64a6c8d76d0f19805)")
+
