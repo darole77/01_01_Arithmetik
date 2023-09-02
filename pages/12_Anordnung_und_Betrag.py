@@ -28,4 +28,13 @@ st.latex(r"\begin{matrix} |3|=3& bzw. &|-3|=3\\ \\ \end{matrix}")
     
 st.markdown("Eine Zahl und ihre Gegenzahl haben stets denselben Betrag.")
 
-st.markdown("[Learningsnack zu Anordnung und Betrag](https://www.learningsnacks.de/share/254800/4bf428b82da3ab3d266ee2bf2a4ce83c3de7853f")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+st.markdown("")
+col1, col2 = st.columns(2)
+with col1:
+    image_url = "https://i.postimg.cc/m2xLjR7y/Logo-LS.jpg"
+    st.image(image_url, width=200)
+with col2:
+    st.markdown("[Anordnung und Betrag](https://www.learningsnacks.de/share/254800/4bf428b82da3ab3d266ee2bf2a4ce83c3de7853f)")
